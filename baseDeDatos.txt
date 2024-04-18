@@ -1,0 +1,13 @@
+CREATE TABLE registro (
+  idUsuario int(11) AUTO_INCREMENT PRIMARY KEY,
+  nombre varchar(45),
+  apellido varchar(45),
+  residencia varchar(45),
+  telefono varchar(45),
+  edad varchar(45)
+);
+
+CREATE TABLE usuario (
+  username char(15) PRIMARY KEY,
+  password varchar(45)
+);
